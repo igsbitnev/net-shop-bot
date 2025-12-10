@@ -12,26 +12,6 @@
 - `run.sh` — вспомогательный скрипт запуска.
 - `db.sqlite` — создаётся автоматически при запуске.
 
-## Быстрый старт
-1. Python 3.10+ и виртуальное окружение:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate
-   ```
-2. Установите зависимости:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Создайте `.env` из примера и впишите `BOT_TOKEN` и `ADMIN_ID`:
-   ```bash
-   cp config.example.env .env
-   # отредактируйте .env
-   ```
-4. Запустите бота:
-   ```bash
-   python bot.py
-   ```
-5. Бот создаст `db.sqlite` и таблицы автоматически при первом запуске.
 
 ## Основные команды
 - `/start` — запуск и главное меню
